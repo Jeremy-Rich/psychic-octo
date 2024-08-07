@@ -2,11 +2,11 @@
   "name": "bear_project",
   "version": "1.0.0",
   "description": "Your project description",
-  "main": "index.js",
+  "main": "MyApp/main.js",
   "scripts": {
     "lint": "eslint .",
     "precommit": "lint-staged",
-    "start": "node index.js"
+    "start": "node MyApp/main.js"
   },
   "author": "Your Name",
   "license": "ISC",
