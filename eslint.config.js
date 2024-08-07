@@ -23,8 +23,8 @@ module.exports = [
         XMLHttpRequest: 'readonly',
         FormData: 'readonly',
         setTimeout: 'readonly',
-        clearTimeout: 'readonly',
         setInterval: 'readonly',
+        clearTimeout: 'readonly',
         clearInterval: 'readonly',
         requestAnimationFrame: 'readonly',
         cancelAnimationFrame: 'readonly',
@@ -32,8 +32,9 @@ module.exports = [
         ImageBitmap: 'readonly',
         TextEncoder: 'readonly',
         TextDecoder: 'readonly',
+        WebGLRenderingContext: 'readonly',
         WebGL2RenderingContext: 'readonly',
-        WebGL2ComputeRenderingContext: 'readonly',
+        WebGLComputeRenderingContext: 'readonly',
         XRWebGLLayer: 'readonly',
         XRWebGLBinding: 'readonly',
         __THREE_DEVTOOLS__: 'readonly',
@@ -62,15 +63,12 @@ module.exports = [
         CONSOLE_MODE: 'readonly',
         EVALEX: 'readonly',
         parent: 'readonly',
-        group: 'readonly',
         navigate: 'readonly',
         select: 'readonly',
         location: 'readonly',
-        XMLHttpRequest: 'readonly',
-        FileReader: 'readonly',
-        Image: 'readonly',
-        FormData: 'readonly'
-      }
-    }
-  }
+        group: 'readonly',
+        XMLHTTPRequest: 'readonly',
+      },
+    },
+  },
 ];
