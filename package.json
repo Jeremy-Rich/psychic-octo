@@ -1,7 +1,7 @@
 {
 <<<<<<< HEAD
   "name": "bear_project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Your project description",
   "main": "MyApp/main.js",
   "scripts": {
@@ -29,7 +29,7 @@
 =======
   "name": "my-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
