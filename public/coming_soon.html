@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 4em;
+            margin: 0.2em 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        p {
+            font-size: 1.2em;
+            margin: 1em 0;
+            max-width: 600px;
+            text-align: center;
+        }
+        #countdown {
+            font-size: 2em;
+            margin-top: 1.5em;
+        }
+        #countdown span {
+            font-weight: bold;
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 1em;
+        }
+        .social-icons a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .background-animation {
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, transparent, rgba(0,0,0,0.1), transparent);
+            animation: rotateBackground 20s linear infinite;
+            z-index: -1;
+        }
+        @keyframes rotateBackground {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="content">
+        <h1>Coming Soon</h1>
+        <p>Prepare to experience the future of immersive storytelling and digital empowerment. Stay tuned for something extraordinary.</p>
+        <div id="countdown"></div>
+        <footer>
+            <div class="social-icons">
+                <a hr<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 4em;
+            margin: 0.2em 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        p {
+            font-size: 1.2em;
+            margin: 1em 0;
+            max-width: 600px;
+            text-align: center;
+        }
+        #countdown {
+            font-size: 2em;
+            margin-top: 1.5em;
+        }
+        #countdown span {
+            font-weight: bold;
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 1em;
+        }
+        .social-icons a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .background-animation {
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, transparent, rgba(0,0,0,0.1), transparent);
+            animation: rotateBackground 20s linear infinite;
+            z-index: -1;
+        }
+        @keyframes rotateBackground {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="content">
+        <h1>Coming Soon</h1>
+        <p>Prepare to experience the future of immersive storytelling and digital empowerment. Stay tuned for something extraordinary.</p>
+        <div id="countdown"></div>
+        <footer>
+            <div class="social-icons">
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Countdown Timer Script
+        const countdown = document.getElementById('countdown');
+        const launchDate = new Date('December 31, 2024 00:00:00').getTime();
+
+        const interval = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = launchDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            countdown.innerHTML = `<span>${days}</span> Days <span>${hours}</span> Hours <span>${minutes}</span> Minutes <span>${seconds}</span> Seconds`;
+
+            if (distance < 0) {
+                clearInterval(interval);
+                countdown.innerHTML = "We're live!";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>TapOkayef="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Countdown Timer Script
+        const countdown = document.getElementById('countdown');
+        const launchDate = new Date('December 31, 2024 00:00:00').getTime();
+
+        const interval = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = launchDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            countdown.innerHTML = `<span>${days}</span> Days <span>${hours}</span> Hours <span>${minutes}</span> Minutes <span>${seconds}</span> Seconds`;
+
+            if (distance < 0) {
+                clearInterval(interval);
+                countdown.innerHTML = "We're live!";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
