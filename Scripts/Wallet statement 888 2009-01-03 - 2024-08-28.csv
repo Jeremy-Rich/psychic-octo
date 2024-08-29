@@ -1,0 +1,20 @@
+"Wallet statement"
+"Address count with BTC balance:";27
+"Starting balance 2009-01-03";0.00;BTC;0.00;USD
+"Ending balance 2024-08-28";0.00;BTC;0.00;USD
+"Total received";0.00;BTC
+"Total sent";0.00;BTC
+"Total received from external wallets";0.00;BTC
+"Total sent to external wallets";0.00;BTC
+
+"Types legend"
+"External receiving";"An event that replenishes an address from your list, where the sending address is not an address from your list."
+"External spending";"An event that reflects a spend from an address on your list to an external address that is not an address on your list."
+"Inner fee";"Commission that was spent by the address from your list."
+Inner;"Event where the recipient address and the sender address are addresses from your list"
+
+
+"Start period";2009-01-03
+"End period";2024-08-28
+"Transactions involving the addresses:"
+"Tx number";Effect;Ticker;"Amount fiat (USD)";"Asset rate (USD)";Type;Date;"Public key";"Wallet address";"Third-party address";"Transaction hash"

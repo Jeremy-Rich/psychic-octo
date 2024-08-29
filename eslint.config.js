@@ -70,5 +70,10 @@ module.exports = [
         XMLHTTPRequest: 'readonly',
       },
     },
+    settings: {
+      react: {
+        version: 'detect', // Automatically detect the react version
+      },
+    },
   },
 ];
