@@ -1,29 +1,54 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest
 
+    runs-on: ubuntu-latest
+    
     strategy:
       matrix:
-        node-version: [14.x, 16.x]
+        node-version: [14, 16, 18]  # Testing across different Node.js versions
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install backend dependencies
+        working-directory: psychic-octo-backend
+        run: npm install  # Ensure you're using the correct package manager
 
-    - name: Run ESLint
-      run: npx eslint .
+      - name: Run backend tests
+        working-directory: psychic-octo-backend
+        run: npm test
 
-    - name: Run tests
-      run: npm test
+      - name: Install frontend dependencies
+        working-directory: psychic-octo-frontend
+        run: npm install  # Ensure you're using the correct package manager
+
+      - name: Run frontend tests
+        working-directory: psychic-octo-frontend
+        run: npm test
+
+      # Optional: Add steps for deployment or artifact generation
+      - name: Build Frontend
+        working-directory: psychic-octo-frontend
+        run: npm run build  # Assuming you have a build script
+
+      - name: Upload Frontend Build
+        uses: actions/upload-artifact@v2
+        with:
+          name: frontend-build
+          path: psychic-octo-frontend/dist  # Adjust as necessary based on your build output location
