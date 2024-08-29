@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Temp Migration Project
-=======
-# Psychic Octo Project
+# Psychic-Octo Project
+
 ## Branches
 - `main`: Core functionality and overall project management.
 - `api1-integration`: Integration for API 1.
@@ -14,9 +11,6 @@
 - `api2/`: API 2 integration scripts and documentation.
 - `docs/`: Project documentation.
 - `scripts/`: Utility scripts for various tasks.
->>>>>>> d8b6257bbd32faab45e57b73576fe24ec71b20cc
-=======
-# Psychic-Octo Project
 
 ## Project Structure
 
@@ -26,6 +20,7 @@
 │   ├── .env
 ├── README.md
 ├── other_project_files…
+
 ## KeyMate Integration
 
 ### Setup
@@ -55,6 +50,4 @@
     ```
 
 ### Additional Information
-
-- For any issues or further developments, refer to the project documentation and maintain proper version control.
->>>>>>> 5bb1c20 (Added KeyMate integration script and documentation)
+- For any issues or further developments, refer to the project documentation and $
