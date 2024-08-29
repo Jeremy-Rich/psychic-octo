@@ -1,0 +1,8 @@
+{
+    "runtime": "edge",
+    "entrypoint": "index.js",
+    "envVarsInUse": [
+        "DATABASE_API_KEY"
+    ],
+    "regions": "all"
+}

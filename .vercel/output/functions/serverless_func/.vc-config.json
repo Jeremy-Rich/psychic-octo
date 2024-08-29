@@ -1,0 +1,7 @@
+{
+    "handler": "serve.js",
+    "runtime": "nodejs16.x",
+    "supportsWrapper": true,
+    "supportsResponseStreaming": true,
+    "maxDuration": 3
+}

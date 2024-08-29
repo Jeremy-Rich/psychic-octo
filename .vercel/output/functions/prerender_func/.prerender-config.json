@@ -1,0 +1,10 @@
+{
+    "expiration": 60,
+    "passQuery": false,
+    "group": 1,
+    "bypassToken": "03326da8bea31b919fa3a31c85747ddc",
+    "fallback": "example.prerender-fallback.html",
+    "allowQuery": [
+        "id"
+    ]
+}
