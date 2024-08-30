@@ -1,3 +1,6 @@
 [submodule "projects/bear_project"]
 	path = projects/bear_project
 	url = https://github.com/jeremy-rich/bear_project.git
+[submodule "psychic-octo-backup"]
+	path = psychic-octo-backup
+	url = https://github.com/jeremy-rich/psychic-octo-backup.git

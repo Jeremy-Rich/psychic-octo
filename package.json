@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint .",
     "precommit": "lint-staged",
-    "start": "node MyApp/main.js"
+    "start": "node MyApp/main.js",
+    "build": "echo 'No build step required'"
   },
   "author": "Your Name",
   "license": "ISC",
