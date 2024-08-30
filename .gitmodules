@@ -1,6 +1,11 @@
 [submodule "projects/bear_project"]
-	path = projects/bear_project
-	url = https://github.com/jeremy-rich/bear_project.git
-[submodule "psychic-octo-backup"]
-	path = psychic-octo-backup
-	url = https://github.com/jeremy-rich/psychic-octo-backup.git
+    path = projects/bear_project
+    url = https://github.com/jeremy-rich/turbo-octo-spork.git
+
+[submodule "projects/scripts/psychic-octo"]
+    path = projects/scripts/psychic-octo
+    url = https://github.com/jeremy-rich/Psychic-Octo-Rotary-Phone.git
+
+[submodule "website"]
+    path = website
+    url = https://github.com/jeremy-rich/turbo-octo-keymate.git
