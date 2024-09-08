@@ -20,10 +20,10 @@
     "globals": "^15.9.0",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.10",
-    "typescript-eslint": "^8.4.0",
-    "next": "^13.0.0",
+    "next": "^14.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "typescript-eslint": "^8.4.0"
   },
   "husky": {
     "hooks": {
@@ -39,7 +39,6 @@
   "dependencies": {
     "ai": "^3.3.28",
     "mongodb": "^4.11.0",
-    "next": "^13.0.0",
-    "openai": "^3.2.1"
+    "openai": "^4.58.1"
   }
 }
