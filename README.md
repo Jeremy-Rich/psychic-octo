@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Temp Migration Project
-=======
 # Psychic Octo Project
 ## Branches
 - `main`: Core functionality and overall project management.
